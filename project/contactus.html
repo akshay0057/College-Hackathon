@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/font.css">
+  <link rel="stylesheet" type="text/css" href="css/homepage.css">
+<style>
+  
+body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+}
+
+html {
+      box-sizing: border-box;
+}
+
+*, *:before, *:after {
+                      box-sizing: inherit;
+}
+
+.column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+}
+
+.card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+}
+
+.about-section {
+              padding: 270px;
+              text-align: center;
+              background-color: #474e5d;
+              color: white;
+}
+
+.container {
+        padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color:crimson;
+  color: black;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg" style="background-color: black;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="homepage.html">
+      <img src="farmer.png" alt="" width="50" height="30" class="d-inline-block align-top">
+      FARMER
+    </a>  
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active tcolor" aria-current="page" href="homepage.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link tcolor" href="market1.html">&nbsp &nbsp MARKET</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link tcolor" href="aboutus.html">&nbsp &nbsp ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link tcolor" href="contactus">&nbsp &nbsp CONTACT US &nbsp &nbsp</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link tcolor" href="signup.html">SIGNUP &nbsp &nbsp</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link tcolor" href="signup.html">SIGNIN &nbsp &nbsp</a>
+        </li>
+    </div>
+  </div>
+</nav>
+
+<div class="about-section">
+  <h1>CONTACT US</h1>
+  <p><b>We are from GNIOT IT 3rd year</b></p>
+</div>
+
+<h1 style="text-align:center">Our Team</h1>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Akshay Sharma</h2>
+        <p class="title">Team leader</p>
+        <p>Leader of the team</p>
+        <p>Akshay@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Kunal Yadav</h2>
+        <p class="title">Team member</p>
+        <p>A team Member</p>
+        <p>kunal@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Vanshika Chitranshi</h2>
+        <p class="title">Designer</p>
+        <p>Female member of our team</p>
+        <p>Vanshika@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Kaushal Lodhi</h2>
+        <p class="title">Team Member</p>
+        <p>A passionate member of the team</p>
+        <p>kaushal@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Asad Shaikh</h2>
+        <p class="title">Team Member</p>
+        <p>coding is my passion.</p>
+        <p>asad@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Aadarh Upadhyay</h2>
+        <p class="title">Web Designer</p>
+        <p>Love to code...</p>
+        <p>aadarsh@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<footer class="site-footer" >
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">.We open the door to thousands of approved buyers and sellers. Post your crop bid as a registered buyer, or create your crop offer as a platform verified seller. </p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a  href="aboutus.html">About Us</a></li>
+              <li><a  href="contactus.html">Contact Us</a></li>
+              <li><a  href="signup.html">Sign up</a></li>
+              <li><a  href="signin.html">Login</a></li>
+              <li><a href="market1.html">Market</a></li>
+            </ul>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+         <a href="#">DYNAMICA</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+</body>
+</html>

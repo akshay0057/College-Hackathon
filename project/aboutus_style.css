@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:black;
+    font-family: 'Dancing Script', cursive;
+}
+.navbar-brand{
+font-family: 'Audiowide', cursive;
+color: white;
+}
+.tcolor{
+    color: white;
+    font-family: system-ui;
+}
+.dropdownbox{
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height:35px;
+    font-family: system-ui;
+    
+}
+.container{
+    background: white;
+    height: 95vh;
+    width: 95%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.back{
+    height: 100%;
+    width: 35%;
+    background: url("agriculture.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text{
+    width: 60%;
+    padding: 10px 10px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+    font-size: 15px;
+}

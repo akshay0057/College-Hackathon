@@ -1,0 +1,43 @@
+
+input[type="submit"]
+{
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    background: #f44336;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition:0.2s ease;
+    cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+    background: #ff5722;
+    transition: 0.2s ease;
+}
+input[type="reset"]
+{
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    background: #f44336;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition:0.2s ease;
+    cursor: pointer;
+}
+input[type="reset"]:hover,
+input[type="reset"]:focus
+{
+    background: #ff5722;
+    transition: 0.2s ease;
+}
